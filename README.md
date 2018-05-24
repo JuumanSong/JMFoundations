@@ -1,3 +1,2 @@
-
 ## How To Get Started
 
