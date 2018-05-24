@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F6821ED020B69F9000B40D77 /* JMFoundations.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821ECE20B69F9000B40D77 /* JMFoundations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6821ED820B69FC100B40D77 /* DYJMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6821ED620B69FC100B40D77 /* DYJMUtil.m */; };
-		F6821ED920B69FC100B40D77 /* DYJMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821ED720B69FC100B40D77 /* DYJMUtil.h */; };
+		F6821ED920B69FC100B40D77 /* DYJMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821ED720B69FC100B40D77 /* DYJMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

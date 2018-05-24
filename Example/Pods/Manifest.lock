@@ -1,0 +1,21 @@
+PODS:
+  - JMFoundations (0.0.1)
+
+DEPENDENCIES:
+  - JMFoundations (from `https://github.com/JuumanSong/JMFoundations.git`)
+
+EXTERNAL SOURCES:
+  JMFoundations:
+    :git: https://github.com/JuumanSong/JMFoundations.git
+
+CHECKOUT OPTIONS:
+  JMFoundations:
+    :commit: eee8f924ecc34f6c11294b5fd3c8b9c7979cf4fb
+    :git: https://github.com/JuumanSong/JMFoundations.git
+
+SPEC CHECKSUMS:
+  JMFoundations: bcb3fb736dd090fa7a6118af552952010d7a0c1e
+
+PODFILE CHECKSUM: 6b212d32a37640cdbefc189695b274ba3934cf5d
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,6 @@
+framework module JMFoundations {
+  umbrella header "JMFoundations-umbrella.h"
+
+  export *
+  module * { export * }
+}

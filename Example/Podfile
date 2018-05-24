@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+target 'JMFoundationDemo' do
+
+pod 'JMFoundations', :git => 'https://github.com/JuumanSong/JMFoundations.git'
+use_frameworks!
+
+end
