@@ -263,40 +263,7 @@ FOUNDATION_EXPORT NSNumber * DY_NumberArrFoundation(NSArray <NSNumber *>* arr,NS
 
 
 
-
-
-
-
-
-
 @implementation DYJMUtil
 
-+(void)test{
-    NSDictionary *dic = @{
-                          @"a":@"string",
-                          @"b":@{@"b1":@{@"b2":@"b2str"}},
-                          @"c":@[@"123",@{@"bs1":@345},@[@"bs2",@"hhs"]],
-                          @"d":[NSNull new],
-                          };
-    
-    id a = DY_JsonGet(dic, @"b,b1", @"defult1");
-    id b = DY_JsonGet(dic, @"b,b1,b3", @"defult2");
-    id c = DY_JsonGet(dic, @"c,4,bs1", @"defult3");
-    id d = DY_JsonGet(dic, @"c,2,0", @"defult4");
-    id e = DY_JsonGet(dic, @"d", @"defult5");
-    
-    
-    NSArray *arr = @[@"1233",@"的收费方式的烦恼",@""];
-    
-    NSArray *tmp = DY_ArrMap(arr, ^id(id item) {
-        return @(((NSString *)item).length);
-    });
-    
-    id f = DY_ArrFind(arr, ^BOOL(id item) {
-        return ((NSString *)item).length>5;
-    });
-    
-
-}
 
 @end

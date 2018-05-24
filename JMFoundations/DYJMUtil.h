@@ -120,6 +120,5 @@ FOUNDATION_EXPORT NSNumber * DY_NumberArrFoundation(NSArray <NSNumber *>* arr,NS
 
 @interface DYJMUtil : NSObject
 
-+(void)test;
 
 @end
