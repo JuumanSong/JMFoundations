@@ -8,16 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F6821ED020B69F9000B40D77 /* JMFoundations.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821ECE20B69F9000B40D77 /* JMFoundations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6821ED820B69FC100B40D77 /* DYJMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6821ED620B69FC100B40D77 /* DYJMUtil.m */; };
-		F6821ED920B69FC100B40D77 /* DYJMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821ED720B69FC100B40D77 /* DYJMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6821EFF20B6B88700B40D77 /* DYJMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6821EFD20B6B88700B40D77 /* DYJMUtil.m */; };
+		F6821F0020B6B88700B40D77 /* DYJMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821EFE20B6B88700B40D77 /* DYJMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6821F0720B6BFD600B40D77 /* DYTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821F0220B6BFD500B40D77 /* DYTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6821F0820B6BFD600B40D77 /* DYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6821F0320B6BFD500B40D77 /* DYTimer.m */; };
+		F6821F0920B6BFD600B40D77 /* DYCutOffScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821F0520B6BFD500B40D77 /* DYCutOffScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6821F0A20B6BFD600B40D77 /* DYCutOffScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F6821F0620B6BFD500B40D77 /* DYCutOffScreen.m */; };
+		F6821F0E20B6C17400B40D77 /* DYToastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6821F0C20B6C17400B40D77 /* DYToastUtil.m */; };
+		F6821F0F20B6C17400B40D77 /* DYToastUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F6821F0D20B6C17400B40D77 /* DYToastUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6821ECB20B69F9000B40D77 /* JMFoundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMFoundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6821ECE20B69F9000B40D77 /* JMFoundations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFoundations.h; sourceTree = "<group>"; };
 		F6821ECF20B69F9000B40D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6821ED620B69FC100B40D77 /* DYJMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYJMUtil.m; sourceTree = "<group>"; };
-		F6821ED720B69FC100B40D77 /* DYJMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYJMUtil.h; sourceTree = "<group>"; };
+		F6821EFD20B6B88700B40D77 /* DYJMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYJMUtil.m; sourceTree = "<group>"; };
+		F6821EFE20B6B88700B40D77 /* DYJMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYJMUtil.h; sourceTree = "<group>"; };
+		F6821F0220B6BFD500B40D77 /* DYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYTimer.h; sourceTree = "<group>"; };
+		F6821F0320B6BFD500B40D77 /* DYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYTimer.m; sourceTree = "<group>"; };
+		F6821F0520B6BFD500B40D77 /* DYCutOffScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCutOffScreen.h; sourceTree = "<group>"; };
+		F6821F0620B6BFD500B40D77 /* DYCutOffScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCutOffScreen.m; sourceTree = "<group>"; };
+		F6821F0C20B6C17400B40D77 /* DYToastUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYToastUtil.m; sourceTree = "<group>"; };
+		F6821F0D20B6C17400B40D77 /* DYToastUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYToastUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +62,50 @@
 		F6821ECD20B69F9000B40D77 /* JMFoundations */ = {
 			isa = PBXGroup;
 			children = (
-				F6821ED720B69FC100B40D77 /* DYJMUtil.h */,
-				F6821ED620B69FC100B40D77 /* DYJMUtil.m */,
+				F6821F0B20B6C17400B40D77 /* DYToastUtil */,
+				F6821F0420B6BFD500B40D77 /* DYImageUtil */,
+				F6821F0120B6BFD500B40D77 /* DYTimer */,
+				F6821EFC20B6B88700B40D77 /* DYJMUtil */,
 				F6821ECE20B69F9000B40D77 /* JMFoundations.h */,
 				F6821ECF20B69F9000B40D77 /* Info.plist */,
 			);
 			path = JMFoundations;
+			sourceTree = "<group>";
+		};
+		F6821EFC20B6B88700B40D77 /* DYJMUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F6821EFD20B6B88700B40D77 /* DYJMUtil.m */,
+				F6821EFE20B6B88700B40D77 /* DYJMUtil.h */,
+			);
+			path = DYJMUtil;
+			sourceTree = "<group>";
+		};
+		F6821F0120B6BFD500B40D77 /* DYTimer */ = {
+			isa = PBXGroup;
+			children = (
+				F6821F0220B6BFD500B40D77 /* DYTimer.h */,
+				F6821F0320B6BFD500B40D77 /* DYTimer.m */,
+			);
+			path = DYTimer;
+			sourceTree = "<group>";
+		};
+		F6821F0420B6BFD500B40D77 /* DYImageUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F6821F0520B6BFD500B40D77 /* DYCutOffScreen.h */,
+				F6821F0620B6BFD500B40D77 /* DYCutOffScreen.m */,
+			);
+			path = DYImageUtil;
+			sourceTree = "<group>";
+		};
+		F6821F0B20B6C17400B40D77 /* DYToastUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F6821F0C20B6C17400B40D77 /* DYToastUtil.m */,
+				F6821F0D20B6C17400B40D77 /* DYToastUtil.h */,
+			);
+			path = DYToastUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,7 +115,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6821ED920B69FC100B40D77 /* DYJMUtil.h in Headers */,
+				F6821F0020B6B88700B40D77 /* DYJMUtil.h in Headers */,
+				F6821F0F20B6C17400B40D77 /* DYToastUtil.h in Headers */,
+				F6821F0720B6BFD600B40D77 /* DYTimer.h in Headers */,
+				F6821F0920B6BFD600B40D77 /* DYCutOffScreen.h in Headers */,
 				F6821ED020B69F9000B40D77 /* JMFoundations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6821ED820B69FC100B40D77 /* DYJMUtil.m in Sources */,
+				F6821F0820B6BFD600B40D77 /* DYTimer.m in Sources */,
+				F6821EFF20B6B88700B40D77 /* DYJMUtil.m in Sources */,
+				F6821F0E20B6C17400B40D77 /* DYToastUtil.m in Sources */,
+				F6821F0A20B6BFD600B40D77 /* DYCutOffScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
