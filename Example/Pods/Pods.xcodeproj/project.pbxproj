@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7228482F05CDA4D4A3EC5D1AE458E1C0 /* DYJMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5DF866D98AC6C5A148BAC2347AB18E /* DYJMUtil.m */; };
-		757AB77B4BD1A1DDDEF7B476D7E42016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		7648006A8299D9EA4EB58815E023B1D4 /* DYJMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C276F1E9D00163411CAE4824A8028068 /* DYJMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B4067CF56E344920388BE5C8502FC51 /* JMFoundations.h in Headers */ = {isa = PBXBuildFile; fileRef = 74690AA3B0EDF7576B4AA729DFF9B03F /* JMFoundations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E2CA3CECDABBAE449498EB0F6A60C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		8F395A4C3C4566235038A2E04E9949E6 /* JMFoundations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803BC551D5B9634903C34DF55A2E03AD /* JMFoundations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0441DA4F0313C93AE511451B18DB10CA /* DYTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0337BC5ED58D6A970A7241FFE8EEF3D5 /* DYTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07969EDF2FDF2A14A9399D620F906870 /* JMFoundations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BFCA01A5CB08C1367229CCFC61DF78 /* JMFoundations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0837019FAA3E8A1B7BEA4A203E80386B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		3DF69BD5179F693B563F65FA289EA12C /* DYCutOffScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7DFDCD06BD0479CB722F4F3F8A4C1 /* DYCutOffScreen.m */; };
+		53B7E083C70635CE41605F595E8EAB3B /* JMFoundations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B014D3FAF30B13DB60119FCD46009 /* JMFoundations-dummy.m */; };
 		939198B387BC90894A54CA0D5D678535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		9CB363239C0B1F72837D7DA14C99127B /* Pods-JMFoundationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0023B68B1DCE122060DEF3FC2FA47923 /* Pods-JMFoundationDemo-dummy.m */; };
+		A30D28E41E3206796E898D8C1B9DBC36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		A7E63EE72D31CA74C262EBE8F3E16B27 /* DYToastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 63982851F3FF6F2FFE92B9D83A0CE2F2 /* DYToastUtil.m */; };
+		C13B977D5C653FB5EE962F083D38117F /* DYJMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD2195377DE6C42F84E913A6367D713 /* DYJMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28D0863435E3900EDDD8F66AEAB1C18 /* Pods-JMFoundationDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BAB685AF7D8B13C2ECAC0F98D72DD1 /* Pods-JMFoundationDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE794E43C7DDC90351A9A813C0FD0044 /* JMFoundations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D36FF70D1A157B38FF455009B0E6D8 /* JMFoundations-dummy.m */; };
+		C42597A8AAA51D671BB1A61AB30541FD /* DYCutOffScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC1FFEC05DA8AA2F0AB93FCC50D5987 /* DYCutOffScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C690B4A672F4A8C68EBE311E2EE1B859 /* DYJMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A61F0DA437D9171B24F3995752A89 /* DYJMUtil.m */; };
+		DE685980D3A93AADF44BD6E20E425ACE /* JMFoundations.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C1F22BEAD0A3C86F2538B1A84A715F /* JMFoundations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54D5DF8DF451CEFFDB954B8398F11A6 /* DYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CC84BAB5323479F2CA93349BAFFD31 /* DYTimer.m */; };
+		FEBC30992E37C8DA7644B2DFF6D70F1C /* DYToastUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8314142DF44F1FEAB081A0305B5EA2 /* DYToastUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,45 +30,51 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D035DE9C88E011B8461ABAB6787E9A4;
+			remoteGlobalIDString = 6FD2E6029B024D676F7E1508E972635C;
 			remoteInfo = JMFoundations;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0023B68B1DCE122060DEF3FC2FA47923 /* Pods-JMFoundationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMFoundationDemo-dummy.m"; sourceTree = "<group>"; };
-		0E5DF866D98AC6C5A148BAC2347AB18E /* DYJMUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYJMUtil.m; path = JMFoundations/DYJMUtil.m; sourceTree = "<group>"; };
+		0337BC5ED58D6A970A7241FFE8EEF3D5 /* DYTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYTimer.h; path = JMFoundations/DYTimer/DYTimer.h; sourceTree = "<group>"; };
+		18BC92739DEF6BFF4CA13831E8043110 /* JMFoundations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMFoundations-prefix.pch"; sourceTree = "<group>"; };
+		1DED07DD35EE94635EEB672FC85DAD9D /* JMFoundations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMFoundations.xcconfig; sourceTree = "<group>"; };
 		20649B4373FB3245875E834070D1BA3D /* JMFoundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMFoundations.framework; path = JMFoundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A278D8D75F85F8B0EFD98C2CCD4190 /* Pods-JMFoundationDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMFoundationDemo-resources.sh"; sourceTree = "<group>"; };
 		35BAB685AF7D8B13C2ECAC0F98D72DD1 /* Pods-JMFoundationDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMFoundationDemo-umbrella.h"; sourceTree = "<group>"; };
 		479EE8BBFCDF155BA2B0F8E8E79157B4 /* Pods-JMFoundationDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMFoundationDemo-frameworks.sh"; sourceTree = "<group>"; };
 		4A335689EB97CC9AF534BF494B3AA030 /* Pods-JMFoundationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMFoundationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4AFEC395ECA1F0823DA37F763BDDBB2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FBCFF197105DAC0D5AB649A72F4E7C1 /* Pods-JMFoundationDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMFoundationDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		59574431E98D14F0523CBAB3936C7966 /* JMFoundations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JMFoundations.modulemap; sourceTree = "<group>"; };
-		60D36FF70D1A157B38FF455009B0E6D8 /* JMFoundations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMFoundations-dummy.m"; sourceTree = "<group>"; };
+		63982851F3FF6F2FFE92B9D83A0CE2F2 /* DYToastUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYToastUtil.m; path = JMFoundations/DYToastUtil/DYToastUtil.m; sourceTree = "<group>"; };
 		738F8C02C3590384FA1AF250BCD18CF3 /* Pods-JMFoundationDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMFoundationDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74690AA3B0EDF7576B4AA729DFF9B03F /* JMFoundations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMFoundations.h; path = JMFoundations/JMFoundations.h; sourceTree = "<group>"; };
-		797E4FCF21FA2BFFFE11CDD5DD338900 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		803BC551D5B9634903C34DF55A2E03AD /* JMFoundations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMFoundations-umbrella.h"; sourceTree = "<group>"; };
+		7F1B014D3FAF30B13DB60119FCD46009 /* JMFoundations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMFoundations-dummy.m"; sourceTree = "<group>"; };
+		8A8314142DF44F1FEAB081A0305B5EA2 /* DYToastUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYToastUtil.h; path = JMFoundations/DYToastUtil/DYToastUtil.h; sourceTree = "<group>"; };
+		8BA31AC48CF6C071DA240F4EDF626334 /* JMFoundations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JMFoundations.modulemap; sourceTree = "<group>"; };
 		8D570FD3E24859C08A70F569411CE654 /* Pods-JMFoundationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMFoundationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96B2019362E40E273FA75447B9C0EC20 /* Pods_JMFoundationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMFoundationDemo.framework; path = "Pods-JMFoundationDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9728A6F1A4D83E012E87816E160C161A /* Pods-JMFoundationDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JMFoundationDemo.modulemap"; sourceTree = "<group>"; };
-		A7024972BF2007A694263526F5259D2F /* JMFoundations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMFoundations-prefix.pch"; sourceTree = "<group>"; };
+		AFD2195377DE6C42F84E913A6367D713 /* DYJMUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYJMUtil.h; path = JMFoundations/DYJMUtil/DYJMUtil.h; sourceTree = "<group>"; };
 		B7F0B3127AF406EE546F07EAF448C722 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C276F1E9D00163411CAE4824A8028068 /* DYJMUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYJMUtil.h; path = JMFoundations/DYJMUtil.h; sourceTree = "<group>"; };
-		DE70950753968DB2DBC6BBA120910619 /* JMFoundations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMFoundations.xcconfig; sourceTree = "<group>"; };
+		BFA7DFDCD06BD0479CB722F4F3F8A4C1 /* DYCutOffScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYCutOffScreen.m; path = JMFoundations/DYImageUtil/DYCutOffScreen.m; sourceTree = "<group>"; };
+		D3CC84BAB5323479F2CA93349BAFFD31 /* DYTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYTimer.m; path = JMFoundations/DYTimer/DYTimer.m; sourceTree = "<group>"; };
+		E0BFCA01A5CB08C1367229CCFC61DF78 /* JMFoundations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMFoundations-umbrella.h"; sourceTree = "<group>"; };
+		E74A61F0DA437D9171B24F3995752A89 /* DYJMUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYJMUtil.m; path = JMFoundations/DYJMUtil/DYJMUtil.m; sourceTree = "<group>"; };
+		F6C1F22BEAD0A3C86F2538B1A84A715F /* JMFoundations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMFoundations.h; path = JMFoundations/JMFoundations.h; sourceTree = "<group>"; };
+		FEC1FFEC05DA8AA2F0AB93FCC50D5987 /* DYCutOffScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYCutOffScreen.h; path = JMFoundations/DYImageUtil/DYCutOffScreen.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9562857A89A6652E58ED32D87EFABCAA /* Frameworks */ = {
+		0995490F041B9ACF3283B7B87FAFBD61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2CA3CECDABBAE449498EB0F6A60C1D /* Foundation.framework in Frameworks */,
-				757AB77B4BD1A1DDDEF7B476D7E42016 /* UIKit.framework in Frameworks */,
+				0837019FAA3E8A1B7BEA4A203E80386B /* Foundation.framework in Frameworks */,
+				A30D28E41E3206796E898D8C1B9DBC36 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3E5230A23E95E42A873AB9A2130218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48C02903F4EC54B66377F28290930984 /* JMFoundations */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,32 +114,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1617B0DB5EB73814CEEA3FB240206084 /* JMFoundations */ = {
-			isa = PBXGroup;
-			children = (
-				C276F1E9D00163411CAE4824A8028068 /* DYJMUtil.h */,
-				0E5DF866D98AC6C5A148BAC2347AB18E /* DYJMUtil.m */,
-				74690AA3B0EDF7576B4AA729DFF9B03F /* JMFoundations.h */,
-				D9CB6ACB3854CCDD4F03CAA78C69B560 /* Support Files */,
-			);
-			name = JMFoundations;
-			path = JMFoundations;
-			sourceTree = "<group>";
-		};
-		3C7AC83645F49AC1B38F835C70C476C6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1617B0DB5EB73814CEEA3FB240206084 /* JMFoundations */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48C02903F4EC54B66377F28290930984 /* JMFoundations */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1FFEC05DA8AA2F0AB93FCC50D5987 /* DYCutOffScreen.h */,
+				BFA7DFDCD06BD0479CB722F4F3F8A4C1 /* DYCutOffScreen.m */,
+				AFD2195377DE6C42F84E913A6367D713 /* DYJMUtil.h */,
+				E74A61F0DA437D9171B24F3995752A89 /* DYJMUtil.m */,
+				0337BC5ED58D6A970A7241FFE8EEF3D5 /* DYTimer.h */,
+				D3CC84BAB5323479F2CA93349BAFFD31 /* DYTimer.m */,
+				8A8314142DF44F1FEAB081A0305B5EA2 /* DYToastUtil.h */,
+				63982851F3FF6F2FFE92B9D83A0CE2F2 /* DYToastUtil.m */,
+				F6C1F22BEAD0A3C86F2538B1A84A715F /* JMFoundations.h */,
+				5EBD01B7D95187140EA54C43F3975ADA /* Support Files */,
+			);
+			name = JMFoundations;
+			path = JMFoundations;
 			sourceTree = "<group>";
 		};
 		4C65388FCF40766C2A729FEFAD0DF753 /* Pods-JMFoundationDemo */ = {
@@ -140,12 +158,26 @@
 			path = "Target Support Files/Pods-JMFoundationDemo";
 			sourceTree = "<group>";
 		};
+		5EBD01B7D95187140EA54C43F3975ADA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AFEC395ECA1F0823DA37F763BDDBB2D /* Info.plist */,
+				8BA31AC48CF6C071DA240F4EDF626334 /* JMFoundations.modulemap */,
+				1DED07DD35EE94635EEB672FC85DAD9D /* JMFoundations.xcconfig */,
+				7F1B014D3FAF30B13DB60119FCD46009 /* JMFoundations-dummy.m */,
+				18BC92739DEF6BFF4CA13831E8043110 /* JMFoundations-prefix.pch */,
+				E0BFCA01A5CB08C1367229CCFC61DF78 /* JMFoundations-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JMFoundations";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				3C7AC83645F49AC1B38F835C70C476C6 /* Pods */,
+				0D3E5230A23E95E42A873AB9A2130218 /* Pods */,
 				80EDF8967AC5843B1B868EB438DBBA47 /* Products */,
 				11E02AF70DFB634DC5FFE85F85D163D7 /* Targets Support Files */,
 			);
@@ -160,30 +192,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9CB6ACB3854CCDD4F03CAA78C69B560 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				797E4FCF21FA2BFFFE11CDD5DD338900 /* Info.plist */,
-				59574431E98D14F0523CBAB3936C7966 /* JMFoundations.modulemap */,
-				DE70950753968DB2DBC6BBA120910619 /* JMFoundations.xcconfig */,
-				60D36FF70D1A157B38FF455009B0E6D8 /* JMFoundations-dummy.m */,
-				A7024972BF2007A694263526F5259D2F /* JMFoundations-prefix.pch */,
-				803BC551D5B9634903C34DF55A2E03AD /* JMFoundations-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JMFoundations";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		19845F823466B09B2C5777A86BB6DC0E /* Headers */ = {
+		536F80BC25953E094146888E413A9926 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7648006A8299D9EA4EB58815E023B1D4 /* DYJMUtil.h in Headers */,
-				8F395A4C3C4566235038A2E04E9949E6 /* JMFoundations-umbrella.h in Headers */,
-				7B4067CF56E344920388BE5C8502FC51 /* JMFoundations.h in Headers */,
+				C42597A8AAA51D671BB1A61AB30541FD /* DYCutOffScreen.h in Headers */,
+				C13B977D5C653FB5EE962F083D38117F /* DYJMUtil.h in Headers */,
+				0441DA4F0313C93AE511451B18DB10CA /* DYTimer.h in Headers */,
+				FEBC30992E37C8DA7644B2DFF6D70F1C /* DYToastUtil.h in Headers */,
+				07969EDF2FDF2A14A9399D620F906870 /* JMFoundations-umbrella.h in Headers */,
+				DE685980D3A93AADF44BD6E20E425ACE /* JMFoundations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,13 +237,13 @@
 			productReference = 96B2019362E40E273FA75447B9C0EC20 /* Pods_JMFoundationDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4D035DE9C88E011B8461ABAB6787E9A4 /* JMFoundations */ = {
+		6FD2E6029B024D676F7E1508E972635C /* JMFoundations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D57374D4F515735646035152228ABE56 /* Build configuration list for PBXNativeTarget "JMFoundations" */;
+			buildConfigurationList = 2AA3B4F76FC9128583BA155A8DD46005 /* Build configuration list for PBXNativeTarget "JMFoundations" */;
 			buildPhases = (
-				7C2C23028D934CE2D3B82205D5EE3427 /* Sources */,
-				9562857A89A6652E58ED32D87EFABCAA /* Frameworks */,
-				19845F823466B09B2C5777A86BB6DC0E /* Headers */,
+				7509E8A48240F1FD80640F1CAC66F448 /* Sources */,
+				0995490F041B9ACF3283B7B87FAFBD61 /* Frameworks */,
+				536F80BC25953E094146888E413A9926 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -254,7 +275,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D035DE9C88E011B8461ABAB6787E9A4 /* JMFoundations */,
+				6FD2E6029B024D676F7E1508E972635C /* JMFoundations */,
 				3E77F2A21F578EF01FE8CC62AD13D290 /* Pods-JMFoundationDemo */,
 			);
 		};
@@ -269,12 +290,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C2C23028D934CE2D3B82205D5EE3427 /* Sources */ = {
+		7509E8A48240F1FD80640F1CAC66F448 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7228482F05CDA4D4A3EC5D1AE458E1C0 /* DYJMUtil.m in Sources */,
-				EE794E43C7DDC90351A9A813C0FD0044 /* JMFoundations-dummy.m in Sources */,
+				3DF69BD5179F693B563F65FA289EA12C /* DYCutOffScreen.m in Sources */,
+				C690B4A672F4A8C68EBE311E2EE1B859 /* DYJMUtil.m in Sources */,
+				E54D5DF8DF451CEFFDB954B8398F11A6 /* DYTimer.m in Sources */,
+				A7E63EE72D31CA74C262EBE8F3E16B27 /* DYToastUtil.m in Sources */,
+				53B7E083C70635CE41605F595E8EAB3B /* JMFoundations-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +308,7 @@
 		73DBFD64F9C8566F45643630563D767B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JMFoundations;
-			target = 4D035DE9C88E011B8461ABAB6787E9A4 /* JMFoundations */;
+			target = 6FD2E6029B024D676F7E1508E972635C /* JMFoundations */;
 			targetProxy = 174DBD5A929D06A3B2AC4FD6B7A733EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -352,41 +376,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		6BD77D2A13C5E5C0CD2D7368216C20D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE70950753968DB2DBC6BBA120910619 /* JMFoundations.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JMFoundations/JMFoundations-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JMFoundations/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JMFoundations/JMFoundations.modulemap";
-				PRODUCT_MODULE_NAME = JMFoundations;
-				PRODUCT_NAME = JMFoundations;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		70E916346E7405D072BF41A6553EC2C1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -463,9 +452,44 @@
 			};
 			name = Debug;
 		};
-		B8E8372AF210750FD6594001EF9D1C2F /* Debug */ = {
+		ADC797B8515F18DC5A3F313100429F00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE70950753968DB2DBC6BBA120910619 /* JMFoundations.xcconfig */;
+			baseConfigurationReference = 1DED07DD35EE94635EEB672FC85DAD9D /* JMFoundations.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JMFoundations/JMFoundations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMFoundations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JMFoundations/JMFoundations.modulemap";
+				PRODUCT_MODULE_NAME = JMFoundations;
+				PRODUCT_NAME = JMFoundations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA21B9FD546EB522EEC25E79B3132BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DED07DD35EE94635EEB672FC85DAD9D /* JMFoundations.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -558,6 +582,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2AA3B4F76FC9128583BA155A8DD46005 /* Build configuration list for PBXNativeTarget "JMFoundations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA21B9FD546EB522EEC25E79B3132BC0 /* Debug */,
+				ADC797B8515F18DC5A3F313100429F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -572,15 +605,6 @@
 			buildConfigurations = (
 				7232039706D39E66A4DB9223D0A75262 /* Debug */,
 				70E916346E7405D072BF41A6553EC2C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D57374D4F515735646035152228ABE56 /* Build configuration list for PBXNativeTarget "JMFoundations" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8E8372AF210750FD6594001EF9D1C2F /* Debug */,
-				6BD77D2A13C5E5C0CD2D7368216C20D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 {
   "name": "JMFoundations",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "summary": "Foundations for ios.",
   "homepage": "https://github.com/JuumanSong/JMFoundations",
   "license": "MIT",
@@ -12,11 +12,8 @@
   },
   "source": {
     "git": "https://github.com/JuumanSong/JMFoundations.git",
-    "tag": "0.0.1"
+    "tag": "0.0.5"
   },
-  "source_files": [
-    "JMFoundations",
-    "JMFoundations/**/*.{h,m}"
-  ],
+  "source_files": "JMFoundations/**/*.{h,m}",
   "frameworks": "UIKit"
 }
